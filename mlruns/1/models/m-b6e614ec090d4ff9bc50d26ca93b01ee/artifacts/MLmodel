@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/jerel/Downloads/Model Deployment in Streamlit/iris/mlruns/1/models/m-b6e614ec090d4ff9bc50d26ca93b01ee/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-b6e614ec090d4ff9bc50d26ca93b01ee
+model_size_bytes: 123878
+model_uuid: m-b6e614ec090d4ff9bc50d26ca93b01ee
+prompts: null
+run_id: 9ea2273e36b64b5c9e01cd89bde9aadd
+utc_time_created: '2026-02-26 09:31:00.159165'
